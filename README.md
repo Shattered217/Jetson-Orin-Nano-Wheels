@@ -1,6 +1,6 @@
 # Jetson Orin Nano / aarch64 Deep Learning Wheels
 
-This repository hosts pre-built Python wheels (`.whl`) for PyTorch, TorchVision, Torchaudio, and TensorRT specifically compiled for NVIDIA Jetson Orin NX (ARM64 / aarch64) with JetPack 6.0 (L4T R36.2/36.3), CUDA 12.6.
+This repository hosts pre-built Python wheels (`.whl`) for PyTorch, TorchVision, Torchaudio, and TensorRT specifically compiled for NVIDIA Jetson Orin Nano (ARM64 / aarch64) with JetPack 6.2.1(rc1), CUDA 12.6.
 
 ---
 
@@ -17,7 +17,7 @@ This repository hosts pre-built Python wheels (`.whl`) for PyTorch, TorchVision,
 
 ## ⚙️ System Requirements
 
-- NVIDIA Jetson Orin NX or compatible Jetson device
+- NVIDIA Jetson Orin Nano or compatible Jetson device
 - JetPack 6.2.1(rc1)
 - CUDA 12.6
 - cuDNN 9 (for CUDA 12.6)
@@ -50,3 +50,5 @@ python -c "import torch; import torchvision; import torchaudio; import tensorrt;
 🔗 References
 
 [PyTorch for Jetson](https://forums.developer.nvidia.com/t/pytorch-for-jetson/72048)
+
+[TensorRT 10.3](https://github.com/NVIDIA/TensorRT/tree/release/10.3/python)
