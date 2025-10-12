@@ -8,11 +8,11 @@ This repository hosts pre-built Python wheels (`.whl`) for PyTorch, TorchVision,
 
 | Package | Version | Notes |
 |---------|---------|------|
-| PyTorch | 2.3.0a0 | Built from source for CUDA 12.6, includes ARM64 optimizations |
-| TorchVision | 0.18.0a0 | Compatible with PyTorch 2.3 |
-| Torchaudio | 2.3.0 | Minimal build, CTC decoder and FFmpeg disabled to avoid compilation issues on Jetson |
-| TensorRT | 10.3.0 | Python wheel for CUDA 12.5/12.6 |
-| OpenCV | 4.11.0 | Precompiled wheel for aarch64; **requires `numpy<2`** for compatibility |
+| [PyTorch](https://github.com/Shattered217/Jetson-Orin-Nano-Wheels/releases/download/6.2.1rc1/torch-2.3.0a0+git97ff6cf-cp310-cp310-linux_aarch64.whl) | 2.3.0a0 | Built from source for CUDA 12.6, includes ARM64 optimizations |
+| [TorchVision](https://github.com/Shattered217/Jetson-Orin-Nano-Wheels/releases/download/6.2.1rc1/torchvision-0.18.0-cp310-cp310-linux_aarch64.whl) | 0.18.0a0 | Compatible with PyTorch 2.3 |
+| [Torchaudio](https://github.com/Shattered217/Jetson-Orin-Nano-Wheels/releases/download/6.2.1rc1/torchaudio-0.18.0-cp310-cp310-linux_aarch64.whl) | 2.3.0 | Minimal build, CTC decoder and FFmpeg disabled to avoid compilation issues on Jetson |
+| [TensorRT](https://github.com/Shattered217/Jetson-Orin-Nano-Wheels/releases/download/6.2.1rc1/tensorrt-10.3.0-cp310-none-linux_aarch64.whl) | 10.3.0 | Python wheel for CUDA 12.5/12.6 |
+| [OpenCV](https://github.com/Shattered217/Jetson-Orin-Nano-Wheels/releases/download/6.2.1rc1/opencv_python-4.11.0-py3-none-any.whl) | 4.11.0 | Precompiled wheel for aarch64; **requires `numpy<2`** for compatibility |
 
 ---
 
